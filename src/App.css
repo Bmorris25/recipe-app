@@ -1,0 +1,35 @@
+.week-schedule {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.week-schedule form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.week-schedule label {
+  font-weight: bold;
+}
+
+.week-schedule select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.week-schedule button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.week-schedule button:hover {
+  background-color: #0056b3;
+}
